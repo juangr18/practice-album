@@ -1,0 +1,72 @@
+#bd1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/fondo.jpg");
+}
+.title {
+  text-align: center;
+  color: #ffffffb0;
+  font-size: 1.5vw;
+}
+
+.description {
+  color: #ffffdf;
+  font-size: 2vw;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: #ffffffb0;
+  font-size: 2vh;
+}
+.link:hover {
+  zoom: 2;
+}
+/* style css for album.html */
+#bd2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/fondo1.jpg");
+  width: 99%;
+  height: auto;
+}
+.aside {
+  width: 25%;
+  display:inline-block;
+  border-radius: 0% 40% 70% 0%;
+  border: 1vw double #ffffff;
+}
+.aside p {
+  font-size: 2vh;
+  color: #ffffffb0;
+  font-family: Arial, sans-serif;
+}
+.index-page{
+    text-align: center;
+}
+.index-page a{
+    text-decoration: none;
+    color: #ffffffb0;
+    font-size:2vw;
+}
+.index-page a:hover{
+    zoom: 1.5;
+}
+.items{
+    width: 65%;
+    margin: auto;
+    display:inline-block;
+}
+.items .album{
+    margin: auto;
+
+}
+.album img{
+    width:90%;
+    height:90%;
+}
+.vacio{
+    width:7%;
+    margin: auto;
+    display: inline-block;
+}
